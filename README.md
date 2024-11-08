@@ -17,7 +17,7 @@ Sigue los siguientes pasos para instalar y ejecutar el proyecto:
    Si aún no has clonado el proyecto, puedes hacerlo ejecutando el siguiente comando:
 
    ```bash
-   git clone https://github.com/tu_usuario/edge-detection.git
+   git clone https://github.com/rogernielsen98/edge-detection.git
    cd edge-detection
 
    Construye la imagen de Docker:
