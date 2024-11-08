@@ -19,3 +19,12 @@ Sigue los siguientes pasos para instalar y ejecutar el proyecto:
    ```bash
    git clone https://github.com/tu_usuario/edge-detection.git
    cd edge-detection
+
+   Construye la imagen de Docker:
+
+
+
+docker build -t edges_detected .
+
+Ejecuta el contenedor Docker:
+docker run -v $(pwd)/images:/app/images edges_detected
